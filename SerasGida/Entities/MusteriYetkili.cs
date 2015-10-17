@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SerasGida.Entities
 {    
-    public class Yetkili
+    public class MusteriYetkili
     {
         public int YetkiliID { get; set; }
         public int MusteriID { get; set; }
@@ -14,5 +14,7 @@ namespace SerasGida.Entities
         public string Unvan { get; set; }
         public string Telefon { get; set; }
         public string Mail { get; set; }
+
+        public virtual Musteri Musteris { get; set; }
     }
 }

@@ -17,5 +17,9 @@ namespace SerasGida.Entities
         public string SicilNo { get; set; }
         public string Telefon { get; set; }
         public string Mail { get; set; }
+
+        public virtual List<UrunMusteri> UrunMusteris { get; set; }
+        public virtual List<MusteriYetkili> MusteriYetkilis { get; set; }
+
     }
 }

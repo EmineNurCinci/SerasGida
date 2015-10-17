@@ -6,7 +6,7 @@ using System.Web;
 namespace SerasGida.Entities
 {
     
-    public class Kullanici
+    public class Personel
     {
         public int KullaniciID { get; set; }
         public string Mail { get; set; }
