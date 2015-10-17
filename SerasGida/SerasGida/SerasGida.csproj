@@ -177,6 +177,14 @@
       <Project>{ef59618f-49b6-4420-8479-1cbe5d643c0c}</Project>
       <Name>BusinessAccessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{be9f3d1c-3130-466e-b716-13d8fbc2d7a4}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{2a5e7cf0-497e-43d5-a4a6-d6ed3cf3bc9b}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
