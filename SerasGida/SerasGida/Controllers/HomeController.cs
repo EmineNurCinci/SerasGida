@@ -14,6 +14,10 @@ namespace SerasGida.Controllers
         //[isAuthentication]
         public ActionResult Index()
         {
+            using (StockContext sc = new StockContext())
+            {
+                sc.Personeller.ToList();
+            }
            return View();
         }
     }

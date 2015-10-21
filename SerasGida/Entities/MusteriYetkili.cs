@@ -7,7 +7,6 @@ namespace SerasGida.Entities
 {    
     public class MusteriYetkili
     {
-        public int MusteriYetkiliID { get; set; }
         public int YetkiliID { get; set; }
         public int MusteriID { get; set; }
         public string Ad { get; set; }
@@ -15,7 +14,6 @@ namespace SerasGida.Entities
         public string Unvan { get; set; }
         public string Telefon { get; set; }
         public string Mail { get; set; }
-        public string Tc { get; set; }
 
         public virtual Musteri Musteris { get; set; }
     }

@@ -9,7 +9,7 @@ namespace SerasGida.Models
     public class UserModel
     {
         [Required(ErrorMessage = "Kullanıcı adı boş geçilemez")]
-        public string UserName { get; set; }
+        public string Username { get; set; }
         [Required(ErrorMessage = "Şifre boş geçilemez"), DataType(DataType.Password)]
         public string Password { get; set; }
     }
